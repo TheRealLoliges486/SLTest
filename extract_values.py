@@ -56,7 +56,7 @@ def find_crossings(x_vals, y_vals, threshold=1.0):
     return crossings
 
 # Define the base directory path
-base_dir = "/afs/cern.ch/work/a/atarabin/SLtest/CMSSW_14_1_0_pre4/src/HiggsAnalysis/CombinedLimit/data/tutorials/model_building_2024/SLtest/ws_combine"
+base_dir = "/pnfs/psi.ch/cms/trivcat/store/user/niharrin/ntuples/midRun3/simplified_likelihood/SLTest/output/ws_combine"
 
 r_high = []
 r_low = []

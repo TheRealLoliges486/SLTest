@@ -3,11 +3,11 @@ i=$1 #Get array index from command line
 
 ulimit -s unlimited
 set -e
-cd /afs/cern.ch/work/a/atarabin/SLtest/CMSSW_14_1_0_pre4/src
+cd /t3home/niharrin/devel/CMSSW_14_1_0_pre4/src
 export SCRAM_ARCH=el9_amd64_gcc12
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 eval `scramv1 runtime -sh`
-cd /afs/cern.ch/work/a/atarabin/SLtest/CMSSW_14_1_0_pre4/src/SLtest/ws_combine
+cd /t3home/niharrin/devel/CMSSW_14_1_0_pre4/src/SLtest/ws_combine
 
 mkdir fit_${i}
 cd fit_${i}

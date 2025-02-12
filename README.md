@@ -41,6 +41,7 @@ In our specif case, the simplified likelihood can be written as:
 $$
 -2\Delta\text{NLL} = (\mathbf{\hat{x}}-\mathbf{x})^T \rho^{-1} (\mathbf{\hat{x}}-\mathbf{x})
 $$
+
 where $\mathbf{\hat{x}}$ represents the results of the Combine fit.
 
 ## Environment

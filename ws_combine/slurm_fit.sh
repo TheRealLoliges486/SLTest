@@ -5,7 +5,7 @@
 #SBATCH --output=slurm_output_%a.log  # Log file for each array job
 #SBATCH --output=slurm_output_%a.out
 #SBATCH --error=slurm_output_%a.err
-#SBATCH --array=0-9  # Modify range as needed
+#SBATCH --array=0-999  # Modify range as needed
 #SBATCH --time=00:30:00  # Set appropriate time limit
 #SBATCH --partition=short  # Use standard partition
 #SBATCH --mem=2G  # Adjust memory as needed
